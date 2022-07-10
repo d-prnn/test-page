@@ -100,3 +100,29 @@ footer {
 
     background-color: lightgray;
 }
+
+@media screen and (max-width: 1024.98px) {
+    .footer-h3 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768.98px) {
+    section {
+        flex-basis: 100%;
+    }
+
+    .container h3 {
+        flex-basis: 100%;
+    }
+    
+    .footer-h3 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768.98px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
